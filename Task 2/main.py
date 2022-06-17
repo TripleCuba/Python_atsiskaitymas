@@ -38,6 +38,7 @@ def get_user_names(dict):
         new_list.append(name['name'])
     new_list.sort()
     print(new_list)
+    return new_list
 
 
 get_user_average_age(users)
